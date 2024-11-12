@@ -1,6 +1,6 @@
 const fsExtra = require('fs-extra')
 const { rollup } = require('rollup')
-const getConfig = require('./rollup.config')
+const getConfig = require('../build/rollup.config')
 const fs = require("fs");
 
 function getPackagesFilesName() {
