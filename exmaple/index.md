@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "screenshot2js"
-  text: "des"
-  tagline: My great project tagline
+  text: "A JavaScript screenshot tool"
+  tagline: Support PC and mobile
   actions:
     - theme: brand
       text: Markdown Examples

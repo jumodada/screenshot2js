@@ -4,6 +4,9 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
+  "resolutions": {
+    "rollup": "npm:@rollup/wasm-node"
+  },
   "devDependencies": {
     "vitepress": "^1.5.0"
   }
