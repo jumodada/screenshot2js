@@ -5,5 +5,5 @@ COPY package*.json yarn.lock ./
 RUN npm i yarn -g  --force
 RUN yarn
 COPY .. .
-EXPOSE 3000
+EXPOSE 8080
 CMD ["yarn", "docs:dev"]

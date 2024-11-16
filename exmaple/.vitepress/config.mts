@@ -3,9 +3,15 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "screenshot2js",
+  vite:{
+    server: {
+      host: true,  // Listen to all IP addresses so that containers can access them
+      strictPort: true,
+      port: 8080,
+    },
+  },
   description: "des",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
     ],
