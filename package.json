@@ -4,6 +4,7 @@
   "description": "screenshot tool",
   "main": "index.js",
   "scripts": {
+    "dev": "cd example && docker compose up --build",
     "build": "node ./scripts/run-build.js",
     "test": "jest --coverage",
     "test:watch": "jest --coverage --watch",
