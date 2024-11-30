@@ -4,11 +4,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "screenshot2js",
   vite:{
-    server: {
+    server:{
       host: true,  // Listen to all IP addresses so that containers can access them
-      strictPort: true,
       port: 8080,
-    },
+      strictPort: true,
+    }
   },
   description: "des",
   themeConfig: {
